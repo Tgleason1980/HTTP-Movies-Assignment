@@ -61,6 +61,7 @@ export default class Movie extends React.Component {
     border: 1px solid grey;
     padding: 5px 10px;
     background-color: lightseagreen;
+    color: yellow;
     font-size: 1rem;
     width: 58px;
     height: 30px;
@@ -79,6 +80,7 @@ export default class Movie extends React.Component {
     border: 1px solid grey;
     padding: 5px 10px;
     background-color: lightseagreen;
+    color: yellow;
     font-size: 1rem;
     width: 65px;
     height: 30px;
@@ -90,7 +92,7 @@ export default class Movie extends React.Component {
     
     `
 
-
+    
 
     console.log(this.props.movie)
     if (!this.props.movie) {

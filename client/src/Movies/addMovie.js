@@ -26,21 +26,24 @@ const InputText = Styled.input `
     width: 200px;
     margin: 10px;
     padding: 5px 10px;
-    background-color: yellow;
+    background-color: white;
 `
 const TextArea = Styled.input `
     width: 200px;
     margin: 10px;
     padding: 5px 10px;
-    background-color: yellow;
+    background-color: white;
 `
 
 const Button = Styled.button `
     border: 1px solid grey;
     padding: 5px 10px;
-    background-color: lightseagreen;
+    background-color: yellow;
     width: 120px;
     margin: 10px auto 20px auto;
+`
+const H2 = Styled.h2 `
+    color: yellow;
 `
 
 
@@ -89,7 +92,7 @@ const AddMovie = (props, {errors, touched}) => {
 
     return (
         <FormDiv>
-            <h2>Add Movie</h2>
+            <H2>Add Movie</H2>
             <Form onSubmit = {handleSubmit}>
                 <InputText type = "text" name = "title" placeholder="Title" onChange = {handleChange} value ={addMovie.title} />
                 <InputText type = "text" name = "director" placeholder="Director" onChange = {handleChange} value ={addMovie.director}/>

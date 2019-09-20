@@ -39,7 +39,8 @@ export default class MovieList extends Component {
     const Button = Styled.button `
     border: 1px solid grey;
     padding: 5px 10px;
-    background-color: lightseagreen;
+    background-color: blue;
+    color: yellow;
     width: 120px;
     margin: 10px auto 20px auto;
 `

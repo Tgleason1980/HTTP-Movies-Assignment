@@ -6,11 +6,11 @@ body {
 }
 
 .movie-card {
-  background-color: #fff;
+  background-color: blue;
   border: 0;
   box-shadow: 0 -1px 0 #e0e0e0, 0 0 2px rgba(0, 0, 0, 0.12),
     0 2px 4px rgba(0, 0, 0, 0.24);
-  padding: 1rem;
+  padding: 1remm;
   cursor: pointer;
   position: relative;
   margin: 1rem auto;
@@ -38,6 +38,7 @@ body {
 
 .saved-list h3 {
   margin-right: 10px;
+  color: black;
 }
 
 .saved-movie {
@@ -52,6 +53,7 @@ body {
   position: relative;
   width: 75%;
   margin: 1rem auto;
+  color: yellow;
 }
 .save-button {
   position: absolute;
@@ -68,10 +70,29 @@ body {
 
 .home-button {
   padding: 5px 10px;
-  background-color: lightskyblue;
+  /* background-color: lightskyblue; */
 }
 
 .movie-warning {
   color: red;
   text-align: center;
+}
+a{
+  text-decoration: none;
+  color: yellow;
+}
+
+h2{
+  color: yellow;
+}
+h3{
+  color: yellow;
+}
+h4{
+  color: yellow;
+}
+h5{
+  color: yellow;
+}h6{
+  color: yellow;
 }
